@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ClueDatabase
+  m_EditorClassIdentifier: Assembly-CSharp:BusquedaTesoro.Data:ClueDatabase
+  startQR: INICIO_JUEGO
+  finalQR: TESORO_FINAL
+  clues:
+  - clueNumber: 1
+    clueText: "Si tu cuerpo fuera un PC, aqu\xED es donde le haces el upgrade."
+    subtitleText: ENCUENTRA EL LUGAR
+    expectedQR: ESTACION_1
+    stickerSprite: {fileID: 0}
+    stickerShadowSprite: {fileID: 0}
+  - clueNumber: 2
+    clueText: "No hay punto de guardado sin el combustible oscuro adecuado. Recarga
+      tu procesador aqu\xED, o ser\xE1s historia en vez de leyenda."
+    subtitleText: ENCUENTRA EL LUGAR
+    expectedQR: ESTACION_2
+    stickerSprite: {fileID: 0}
+    stickerShadowSprite: {fileID: 0}
+  - clueNumber: 3
+    clueText: "Haz una extrusi\xF3n hacia abajo en el bloque 'E'. Justo en la capa
+      base, donde los esqueletos (rigs) no asustan, sino que se interpolan."
+    subtitleText: ENCUENTRA EL LUGAR
+    expectedQR: ESTACION_3
+    stickerSprite: {fileID: 0}
+    stickerShadowSprite: {fileID: 0}
+  - clueNumber: 4
+    clueText: "El render termina exactamente en el mismo lugar del primer fotograma.
+      Vuelve al gran sal\xF3n. El Easter Egg no lo esconde el edificio, lo llevan
+      quienes te miran."
+    subtitleText: "\xA1EL TESORO EST\xC1 CERCA!"
+    expectedQR: TESORO_FINAL
+    stickerSprite: {fileID: 0}
+    stickerShadowSprite: {fileID: 0}
