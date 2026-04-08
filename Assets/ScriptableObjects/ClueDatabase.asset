@@ -9,37 +9,65 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 933d1b89b56401e4dbe629ea9feb93f0, type: 3}
   m_Name: ClueDatabase
-  m_EditorClassIdentifier: Assembly-CSharp:BusquedaTesoro.Data:ClueDatabase
-  startQR: INICIO_JUEGO
-  finalQR: TESORO_FINAL
-  clues:
-  - clueNumber: 1
+  m_EditorClassIdentifier: Assembly-CSharp::BusquedaTesoro.Data.ClueDatabase
+  universalQR: AVANZAR
+  allClues:
+  - clueID: P-01
+    locationName: Gimnasio
     clueText: "Si tu cuerpo fuera un PC, aqu\xED es donde le haces el upgrade."
     subtitleText: ENCUENTRA EL LUGAR
-    expectedQR: ESTACION_1
-    stickerSprite: {fileID: 0}
-    stickerShadowSprite: {fileID: 0}
-  - clueNumber: 2
+    stickerSprite: {fileID: 21300000, guid: fad3d366778c4604783fefff97e374c4, type: 3}
+    stickerShadowSprite: {fileID: 21300000, guid: 491057dca1de14f4ab923b7ed8f6005a, type: 3}
+  - clueID: P-02
+    locationName: "Caf\xE9 Leyenda"
     clueText: "No hay punto de guardado sin el combustible oscuro adecuado. Recarga
       tu procesador aqu\xED, o ser\xE1s historia en vez de leyenda."
     subtitleText: ENCUENTRA EL LUGAR
-    expectedQR: ESTACION_2
-    stickerSprite: {fileID: 0}
-    stickerShadowSprite: {fileID: 0}
-  - clueNumber: 3
-    clueText: "Haz una extrusi\xF3n hacia abajo en el bloque 'E'. Justo en la capa
-      base, donde los esqueletos (rigs) no asustan, sino que se interpolan."
+    stickerSprite: {fileID: 21300000, guid: e8232b84b60a2ad4289483a4a5b23f7a, type: 3}
+    stickerShadowSprite: {fileID: 21300000, guid: a79ebbd2fb532584a911bded2cb9a2ee, type: 3}
+  - clueID: P-03
+    locationName: "Lab. de Animaci\xF3n"
+    clueText: "Haz una extrusi\xF3n hacia abajo en el bloque 'E'. En la capa base,
+      donde los rigs no asustan sino que se interpolan."
     subtitleText: ENCUENTRA EL LUGAR
-    expectedQR: ESTACION_3
-    stickerSprite: {fileID: 0}
-    stickerShadowSprite: {fileID: 0}
-  - clueNumber: 4
+    stickerSprite: {fileID: 21300000, guid: 26995f40009ec3e4795f98c75133afb4, type: 3}
+    stickerShadowSprite: {fileID: 21300000, guid: becaa48542991534aa12b270b112314f, type: 3}
+  - clueID: P-04
+    locationName: "Aula M\xE1xima"
     clueText: "El render termina exactamente en el mismo lugar del primer fotograma.
-      Vuelve al gran sal\xF3n. El Easter Egg no lo esconde el edificio, lo llevan
-      quienes te miran."
+      Vuelve al gran sal\xF3n. El Easter Egg lo llevan quienes te miran."
     subtitleText: "\xA1EL TESORO EST\xC1 CERCA!"
-    expectedQR: TESORO_FINAL
-    stickerSprite: {fileID: 0}
-    stickerShadowSprite: {fileID: 0}
+    stickerSprite: {fileID: 21300000, guid: 4a3e2996732d90642928dae34267b3c7, type: 3}
+    stickerShadowSprite: {fileID: 21300000, guid: 30b32ee688839894bae52f10c1986a0e, type: 3}
+  - clueID: P-05
+    locationName: "Dep. de Matem\xE1ticas"
+    clueText: "Aqu\xED viven los vectores que mueven tus v\xE9rtices y las matrices
+      que giran tus modelos 3D. Sin estas f\xF3rmulas, tu escena no existe."
+    subtitleText: ENCUENTRA EL LUGAR
+    stickerSprite: {fileID: 21300000, guid: 72e086702b55c744f83af0112663d68b, type: 3}
+    stickerShadowSprite: {fileID: 21300000, guid: 298558721e7d7d5448d03bc1a4e8d4c3, type: 3}
+  - clueID: P-06
+    locationName: "Dep. de F\xEDsica"
+    clueText: "La simulaci\xF3n de cloth, fluidos y part\xEDculas obedece leyes nacidas
+      aqu\xED. Sin este motor, tu engine no simula nada. Entra y encuentra la fuerza."
+    subtitleText: ENCUENTRA EL LUGAR
+    stickerSprite: {fileID: 21300000, guid: 788ebcc4b73941745b4ac604b828ed35, type: 3}
+    stickerShadowSprite: {fileID: 21300000, guid: 0ea21d38ba0a5d942a6ff36a8531804a, type: 3}
+  - clueID: P-07
+    locationName: COASE
+    clueText: "Este pasillo conecta m\xF3dulos como un bus de datos entre procesos.
+      Aqu\xED los proyectos ayudan a las personas."
+    subtitleText: ENCUENTRA EL LUGAR
+    stickerSprite: {fileID: 21300000, guid: 30932635bfa05774d98a60df5b1d9c3c, type: 3}
+    stickerShadowSprite: {fileID: 21300000, guid: 00817e3a3770b9441ac70c1b1ddbd1a1, type: 3}
+  - clueID: P-08
+    locationName: Plazoleta de Artes
+    clueText: "Antes de modelar en 3D, alguien lo dibuj\xF3 a mano. El concept art
+      naci\xF3 aqu\xED, donde los pol\xEDgonos todav\xEDa son de cemento."
+    subtitleText: ENCUENTRA EL LUGAR
+    stickerSprite: {fileID: 21300000, guid: 064ed4a080aa7584e96078c1231a2f18, type: 3}
+    stickerShadowSprite: {fileID: 21300000, guid: 38db962bff395d94bb729b9bef1af1c6, type: 3}
+  finalClueIndex: 3
+  randomCluesCount: 3

@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 91407436}
   - component: {fileID: 91407435}
   - component: {fileID: 91407434}
+  - component: {fileID: 91407437}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -419,6 +420,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91407432}
   m_CullTransparentMesh: 1
+--- !u!114 &91407437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91407432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d113449c445a8f4fbd50cce361548d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BusquedaTesoro.UI.TeamSelectButton
+  teamID: 3
+  gameplaySceneName: Gameplay
 --- !u!1 &127111729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,6 +1652,7 @@ GameObject:
   - component: {fileID: 505106091}
   - component: {fileID: 505106090}
   - component: {fileID: 505106089}
+  - component: {fileID: 505106092}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1746,6 +1762,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505106087}
   m_CullTransparentMesh: 1
+--- !u!114 &505106092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505106087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d113449c445a8f4fbd50cce361548d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BusquedaTesoro.UI.TeamSelectButton
+  teamID: 7
+  gameplaySceneName: Gameplay
 --- !u!1 &532912730
 GameObject:
   m_ObjectHideFlags: 0
@@ -2561,6 +2591,7 @@ GameObject:
   - component: {fileID: 817249431}
   - component: {fileID: 817249430}
   - component: {fileID: 817249429}
+  - component: {fileID: 817249432}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2670,6 +2701,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817249427}
   m_CullTransparentMesh: 1
+--- !u!114 &817249432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817249427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d113449c445a8f4fbd50cce361548d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BusquedaTesoro.UI.TeamSelectButton
+  teamID: 0
+  gameplaySceneName: Gameplay
 --- !u!1 &885869634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4221,7 +4266,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 42883272}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.4391281
+  m_Size: 0.49567574
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4839,6 +4884,7 @@ GameObject:
   - component: {fileID: 1434727964}
   - component: {fileID: 1434727963}
   - component: {fileID: 1434727962}
+  - component: {fileID: 1434727965}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -4948,6 +4994,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434727960}
   m_CullTransparentMesh: 1
+--- !u!114 &1434727965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434727960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d113449c445a8f4fbd50cce361548d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BusquedaTesoro.UI.TeamSelectButton
+  teamID: 5
+  gameplaySceneName: Gameplay
 --- !u!1 &1461992090
 GameObject:
   m_ObjectHideFlags: 0
@@ -5016,8 +5076,8 @@ Canvas:
   m_GameObject: {fileID: 1461992090}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 354132154}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -5816,8 +5876,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1999348853}
   m_HandleRect: {fileID: 1999348852}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.99999994
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6011,6 +6071,7 @@ GameObject:
   - component: {fileID: 1781516955}
   - component: {fileID: 1781516954}
   - component: {fileID: 1781516953}
+  - component: {fileID: 1781516956}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -6120,6 +6181,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781516951}
   m_CullTransparentMesh: 1
+--- !u!114 &1781516956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781516951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d113449c445a8f4fbd50cce361548d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BusquedaTesoro.UI.TeamSelectButton
+  teamID: 2
+  gameplaySceneName: Gameplay
 --- !u!1 &1797974153
 GameObject:
   m_ObjectHideFlags: 0
@@ -6209,6 +6284,7 @@ GameObject:
   - component: {fileID: 1822882231}
   - component: {fileID: 1822882230}
   - component: {fileID: 1822882229}
+  - component: {fileID: 1822882232}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -6318,6 +6394,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822882227}
   m_CullTransparentMesh: 1
+--- !u!114 &1822882232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822882227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d113449c445a8f4fbd50cce361548d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BusquedaTesoro.UI.TeamSelectButton
+  teamID: 4
+  gameplaySceneName: Gameplay
 --- !u!1 &1824867059
 GameObject:
   m_ObjectHideFlags: 0
@@ -7090,6 +7180,7 @@ GameObject:
   - component: {fileID: 1958568181}
   - component: {fileID: 1958568180}
   - component: {fileID: 1958568179}
+  - component: {fileID: 1958568182}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -7199,6 +7290,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958568177}
   m_CullTransparentMesh: 1
+--- !u!114 &1958568182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958568177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d113449c445a8f4fbd50cce361548d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BusquedaTesoro.UI.TeamSelectButton
+  teamID: 6
+  gameplaySceneName: Gameplay
 --- !u!1 &1977951549
 GameObject:
   m_ObjectHideFlags: 0
@@ -7259,7 +7364,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 10
   m_Viewport: {fileID: 1086433682}
   m_HorizontalScrollbar: {fileID: 1734746281}
   m_VerticalScrollbar: {fileID: 1267273299}
@@ -7636,6 +7741,7 @@ GameObject:
   - component: {fileID: 2038520951}
   - component: {fileID: 2038520950}
   - component: {fileID: 2038520949}
+  - component: {fileID: 2038520952}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -7745,6 +7851,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038520947}
   m_CullTransparentMesh: 1
+--- !u!114 &2038520952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038520947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d113449c445a8f4fbd50cce361548d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BusquedaTesoro.UI.TeamSelectButton
+  teamID: 1
+  gameplaySceneName: Gameplay
 --- !u!1 &2042346623
 GameObject:
   m_ObjectHideFlags: 0
