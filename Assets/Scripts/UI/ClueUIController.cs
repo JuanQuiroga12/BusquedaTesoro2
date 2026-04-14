@@ -4,6 +4,7 @@ using TMPro;
 using DG.Tweening;
 using BusquedaTesoro.Core;
 using BusquedaTesoro.Data;
+using UnityEngine.SceneManagement;
 
 namespace BusquedaTesoro.UI
 {
@@ -151,18 +152,16 @@ namespace BusquedaTesoro.UI
 
         private void HandleGameWon()
         {
-            // Ocultar botones — la transición a la pantalla final se maneja externamente
             buttonScan.SetActive(false);
             buttonNextClue.SetActive(false);
 
             // Animar el último sticker
             AnimateStickerStamp();
 
-            // Aquí se puede agregar una espera y luego cargar la escena de victoria
-            DOVirtual.DelayedCall(2f, () =>
+            // Esperar a que termine la animación y transicionar
+            DOVirtual.DelayedCall(2.5f, () =>
             {
-                Debug.Log("[ClueUIController] Transición a pantalla de victoria...");
-                // UnityEngine.SceneManagement.SceneManager.LoadScene("Victory");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Victory");
             });
         }
 

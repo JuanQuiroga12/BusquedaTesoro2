@@ -83,5 +83,20 @@ namespace BusquedaTesoro.Core
             ColorUtility.TryParseHtmlString(hex, out Color color);
             return color;
         }
+
+        /// <summary>Tiempo final del equipo, guardado al completar el juego.</summary>
+        public static float FinalTime { get; set; } = 0f;
+
+        /// <summary>Retorna el tiempo formateado como MM:SS.ms</summary>
+        public static string FinalTimeFormatted
+        {
+            get
+            {
+                int minutes = Mathf.FloorToInt(FinalTime / 60f);
+                int seconds = Mathf.FloorToInt(FinalTime % 60f);
+                int milliseconds = Mathf.FloorToInt((FinalTime % 1f) * 100f);
+                return $"{minutes:00}:{seconds:00}.{milliseconds:00}";
+            }
+        }
     }
 }

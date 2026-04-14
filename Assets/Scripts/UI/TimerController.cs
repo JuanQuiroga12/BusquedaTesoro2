@@ -53,6 +53,7 @@ namespace BusquedaTesoro.UI
         {
             isRunning = false;
             FinalTime = elapsedTime;
+            TeamData.FinalTime = elapsedTime; // Guardar para la pantalla de victoria
             Debug.Log($"[TimerController] Timer detenido. Tiempo final: {FormatTime(FinalTime)}");
         }
 
