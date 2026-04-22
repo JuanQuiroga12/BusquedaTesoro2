@@ -519,7 +519,7 @@ MonoBehaviour:
   tmpFinalTime: {fileID: 892276559}
   imageTreasureChest: {fileID: 786253678}
   completedDots:
-  - {fileID: 426524169}
+  - {fileID: 1565457507}
   - {fileID: 426524169}
   - {fileID: 1728644700}
   - {fileID: 1665495200}

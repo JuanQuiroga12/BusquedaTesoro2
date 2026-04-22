@@ -250,6 +250,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuEmergente
   panelMenu: {fileID: 919422514}
+  sliderMusica: {fileID: 1479722051}
+  sliderSonido: {fileID: 821839781}
 --- !u!1 &128968049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,8 +1112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3603f925dd36b78439a570074bcef4c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlVolumen
-  sliderMusica: {fileID: 1479722051}
-  sliderEfectos: {fileID: 821839781}
   musicaFondo: {fileID: 533235861}
   volumenMaxMusica: 0.3
 --- !u!1 &542798347
